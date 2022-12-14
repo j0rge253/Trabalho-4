@@ -1,5 +1,7 @@
 # Trabalho-4
-#Gerar Biblioteca 
+# Gerar Biblioteca 
 gcc Trabalho4.c -c
-#Compilar
+
+# Compilar
+
 gcc Trabalho4.o  main.c -o Trabalho4
