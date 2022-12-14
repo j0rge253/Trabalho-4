@@ -31,7 +31,7 @@ int main(){
    	int i;
    	
    	printf("INCLUINDO... \n");
-	for(i = 0; i < P; i++){
+	for(i = 0; i < 10; i++){
 		x = malloc(sizeof(int));
 		*x = i*10;
 		VETORD_add(vet, x);
