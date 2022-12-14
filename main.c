@@ -18,7 +18,7 @@ int myCOMP(void* x, void* y){
 void print(void** vet, int P){
 	int i;
 	printf("VETOR DE %d TAMANHO:\n", P);
-	for(i = 0; i < P; i++){
+	for(i = 0; i < 10; i++){
 		printf(" %d ", *((int*)vet[i]));
 	}
 	printf("\n");
